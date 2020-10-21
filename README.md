@@ -8,3 +8,10 @@ print(td_series)            # [0 1 2 3 4 5 6 7 8 9]
 print(td_series[5:])        # [5 6 7 8 9] 5번째 부터 읽기   
 print(td_series[:-5])       # [0 1 2 3 4] 앞에서 5개 읽기   
 print(diff_seires)          # [5 5 5 5 5]   
+
+
+
+import shutil    
+
+shutil.copytree('dir1','dir2')    
+
